@@ -34,3 +34,28 @@ h1,
   padding: 20px;
   margin: auto;
 }
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px; /* Reduce the padding to make the boxes smaller */
+  margin: 5px;
+  width: 80%; /* Reduce the width to make the boxes narrower */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Add hover effect to the submit button */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
